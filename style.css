@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #f4f4f4;
+}
+
+.header {
+    background-color: black;
+    padding: 15px;
+    border-bottom: 3px solid #32b9cd;
+}
+
+h1 {
+    color: #32b9cd;
+    font-weight: 800;
+}
+
+ul {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    color: #e3b062;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    background-image: url("aguaviva.png"); 
+    padding: 110px 0;
+}
+
+.banner .container {
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-formulario {
+    background-color: whitesmoke;
+    padding: 25px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-formulario h1 {
+    color: #e6005a;
+    margin-bottom: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.campo input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #32b9cd;
+    color: black;
+}
+
+.campo label {
+    color: #e6005a;
+    margin: 13px 0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+::placeholder {
+    text-align: center;
+    font-style: italic;
+}
+
+button {
+    margin-top: 22px;
+    width: 120px;
+    background-color: #e6005a;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: yellow;
+    transition: all 0.7s ease-in-out 0s;
+    box-shadow: inset 0 0 20px #000;    
+}
+
+button:hover {
+    background-color: #ec4182;
+    opacity: 0.9;
+    transform: scale(1.2) rotate(360deg);
+    box-shadow: 0 0 30px rgb(46, 34, 34);
+    cursor: pointer;
+    border: 2px solid rgb(173, 173, 58);
+}
+
+.footer {
+    padding: 20px 0; 
+    background-color: #093c44;
+}
+
+.footer .container {
+    justify-content: center;
+}
+
+.footer p {
+    color: #ffffff;
+    text-shadow: 2px 6px 8px #37c3d8;
+    font-style: oblique;
+}
